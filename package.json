@@ -1,0 +1,12 @@
+{
+  "name": "selective-deployment-guard-reference",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check src/*.mjs test/*.mjs",
+    "test": "node --test",
+    "demo": "node src/demo.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
